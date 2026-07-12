@@ -1,0 +1,69 @@
+:root {
+    --primary: #212529;
+    --font-main: "Google Sans", sans-serif;
+    --font12: 0.75rem;
+    --font13: 0.8125rem;
+    --font14: 0.875rem;
+    --font15: 0.9375rem;
+    --font16: 1rem;
+    --font18: 1.125rem;
+    --font20: 1.25rem;
+    --font22: 1.375rem;
+    --font24: 1.5rem;
+    --font28: 1.75rem;
+    --font30: 1.875rem;
+    --font32: 2rem;
+    --font36: 2.25rem;
+    --font40: 2.5rem;
+    --font48: 3rem;
+    --font56: 3.5rem;
+    --font64: 4rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    html-be font-family: var(--font-main);
+    font-optical-sizing: auto;
+    color: var(--primary);
+    background: #fff;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*swiper*/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*swiper custom*/
+.swiper-pagination-bullet {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 20px !important;
+    border-radius: 12px !important;
+}
+
+/*slider*/
+.slider {
+    height: 500px;
+}
