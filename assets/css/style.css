@@ -34,6 +34,26 @@ body {
 
 }
 
+/*sticky header(add class sticky-header and .sticky)*/
+.sticky-header.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #535557;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+    animation: headerSticky 0.95s ease-out forwards;
+}
+
+@keyframes headerSticky {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 /*swiper*/
 .swiper {
     width: 100%;
